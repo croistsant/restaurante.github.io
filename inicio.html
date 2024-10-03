@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Gigi, sans-serif;
+        }
+        .background {
+            background-image: url('comida.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .text {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="text">
+            <h1>Bienvenidos a Restaurante Nube de Té</h1>
+            <p>Donde cada bocado es una experiencia inolvidable.</p>
+        </div>
+    </div>
+</body>
+</html>
